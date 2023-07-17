@@ -57,16 +57,16 @@
     background-color: var(--clr-neutral-very-light-gray);
     font-family: var(--ff-main);
     font-weight: var(--fw-main);
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: var(--clr-neutral-transparent-white);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   
-  h1 {
+  h2 {
     font-family: var(--ff-base);
     text-transform: uppercase;
     color: var(--clr-neutral-very-light-gray);
@@ -154,7 +154,7 @@
   /*For mobile screen*/
   @media screen and (max-width: 600px) {
     body {
-      height: calc(100vh - 1%);
+      min-height: calc(100vh - 1%);
     }
 
     .container {
