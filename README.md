@@ -29,6 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/SAM7858/3-Column-Preview-Card-project-.git)
+- Live Version: https://3-column-preview-card-project.netlify.app/
 
 ### Built with
 
